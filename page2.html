@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<title>work9 html layout</title>
+
+<style>
+body{
+background:#FFE0FC;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+        width:1024px;
+        margin:0 auto;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+header{
+        background-image:url(image/header2.png);
+        height:256px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+}
+section{
+        display:flex;
+}
+nav{
+        background-color:#BDE0FF;
+        flex:1;
+
+}
+article{
+        background-color:#BDFFF3;
+        flex:2;
+        padding:10px;
+}
+footer{
+        background-color:#D3BDFF;
+        height:100px;
+        padding:25px;
+        color:white;
+        text-align:center;
+}
+
+
+a:link{
+    color:green;
+    text-decoration:none;
+    background-color:#ADE9FF;
+    display:block;
+    width:100%;
+    padding:10px;
+}
+a:visited{
+    color:red;
+}
+a:hover{
+    color:blue;
+    background-color:#62ED39;
+}
+
+}
+a:active{
+    color:purple;
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+<header><h1></h1></header>
+<section>
+<nav>
+<ul style="list-style-type:none;">
+<li><a href="index.html">ลิมิตของฟังก์ชัน</a></li>
+<li><a href="page2.html">ความต่อเนื่องของฟังก์ชัน</a></li>
+<li><a href="page3.html">อนุพันธ์ของฟังก์ชัน</a></li>
+<li><a href="page4.html">การประยุกต์ของอนุพันธ์</a></li>
+<li><a href="page5.html">ปริพันธ์และพื้นที่ปิดล้อมด้วยเส้นโค้ง</a></li>
+
+</ul>
+</nav>
+<article>
+<h1>ความต่อเนื่องของฟังก์ชัน</h1>
+<p>เป็นการต่อยอดจากเรื่องลิมิต เพื่อตรวจสอบว่าเส้นกราฟของฟังก์ชันมีความต่อเนื่อง ไม่ขาดตอน ณ จุด x = a ที่สนใจหรือไม่ โดยฟังก์ชันจะมีความต่อเนื่อง ณ จุดใดๆ ก็ต่อเมื่อผ่านเงื่อนไขครบทั้ง 3 ข้อ คือ f(a) ต้องหาค่าได้, ลิมิตของ f(x) เมื่อ x เข้าใกล้ a ต้องหาค่าได้ และค่าลิมิตที่หาได้นั้นต้องมีค่าเท่ากับ f(a) พอดี สำหรับเนื้อหาบนหน้าเว็บไซต์จะมีการสรุปหลักการและเงื่อนไขความต่อเนื่องทั้ง 3 ข้อ พร้อมทั้งมีแผนภาพกราฟเปรียบเทียบระหว่างฟังก์ชันที่มีความต่อเนื่องและฟังก์ชันที่ไม่ต่อเนื่อง ณ จุดต่างๆ เพื่อให้ผู้เรียนมองเห็นภาพได้อย่างชัดเจน</p>
+</article>
+</section>
+<footer><p>จัดทำโดย นางสาวพัทธ์ธีรา สังวาลเพ็ชร ชั้น ม.6/1 เลขที่ 33<br>โรงเรียนรัตนราษฎร์บำรุง</p></footer>
+</div>
+</body>
+</html>

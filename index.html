@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<title>work9 html layout</title>
+
+<style>
+body{
+background:#FFE0FC;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+        width:1024px;
+        margin:0 auto;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+header{
+        background-image:url(image/header2.png);
+        height:256px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+}
+section{
+        display:flex;
+}
+nav{
+        background-color:#BDE0FF;
+        flex:1;
+
+}
+article{
+        background-color:#BDFFF3;
+        flex:2;
+        padding:10px;
+}
+footer{
+        background-color:#D3BDFF;
+        height:100px;
+        padding:25px;
+        color:white;
+        text-align:center;
+}
+
+
+a:link{
+    color:green;
+    text-decoration:none;
+    background-color:#ADE9FF;
+    display:block;
+    width:100%;
+    padding:10px;
+}
+a:visited{
+    color:red;
+}
+a:hover{
+    color:blue;
+    background-color:#62ED39;
+}
+
+}
+a:active{
+    color:purple;
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+<header><h1></h1></header>
+<section>
+<nav>
+<ul style="list-style-type:none;">
+<li><a href="index.html">ลิมิตของฟังก์ชัน</a></li>
+<li><a href="page2.html">ความต่อเนื่องของฟังก์ชัน</a></li>
+<li><a href="page3.html">อนุพันธ์ของฟังก์ชัน</a></li>
+<li><a href="page4.html">การประยุกต์ของอนุพันธ์</a></li>
+<li><a href="page5.html">ปริพันธ์และพื้นที่ปิดล้อมด้วยเส้นโค้ง</a></li>
+
+</ul>
+</nav>
+<article>
+<h1>ลิมิตของฟังก์ชัน</h1>
+<p>เป็นการศึกษาพฤติกรรมของค่าฟังก์ชัน f(x) เมื่อตัวแปร x มีค่าเข้าใกล้จุดใดจุดหนึ่งแต่ไม่เท่ากับจุดนั้น โดยผู้เรียนจะได้เรียนรู้เกี่ยวกับการพิจารณาลิมิตซ้าย (Left-hand limit) และลิมิตขวา (Right-hand limit) ซึ่งลิมิตของฟังก์ชันจะหาค่าได้ก็ต่อเมื่อลิมิตทั้งสองฝั่งมีค่าเท่ากัน นอกจากนี้ยังครอบคลุมถึงทฤษฎีบทลิมิตเบื้องต้น และเทคนิคการแก้ปัญหาการหาค่าลิมิตเมื่ออยู่ในรูปแบบไม่กำหนด (Indeterminate form 0/0) เช่น การแยกตัวประกอบ การใช้คอนจูเกต (Conjugate) และการจัดรูปทางพีชคณิตสำหรับเนื้อหาบนหน้าเว็บไซต์จะประกอบด้วย นิยามของลิมิต สูตรทฤษฎีบทที่สำคัญ และตัวอย่างโจทย์พร้อมแสดงแนวคิดการแก้ปัญหาอย่างเป็นขั้นตอน</p>
+</article>
+</section>
+<footer><p>จัดทำโดย นางสาวพัทธ์ธีรา สังวาลเพ็ชร ชั้น ม.6/1 เลขที่ 33<br>โรงเรียนรัตนราษฎร์บำรุง</p></footer>
+</div>
+</body>
+</html>

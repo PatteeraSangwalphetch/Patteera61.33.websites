@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<title>work9 html layout</title>
+
+<style>
+body{
+background:#FFE0FC;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+        width:1024px;
+        margin:0 auto;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+header{
+        background-image:url(image/header2.png);
+        height:256px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+}
+section{
+        display:flex;
+}
+nav{
+        background-color:#BDE0FF;
+        flex:1;
+
+}
+article{
+        background-color:#BDFFF3;
+        flex:2;
+        padding:10px;
+}
+footer{
+        background-color:#D3BDFF;
+        height:100px;
+        padding:25px;
+        color:white;
+        text-align:center;
+}
+
+
+a:link{
+    color:green;
+    text-decoration:none;
+    background-color:#ADE9FF;
+    display:block;
+    width:100%;
+    padding:10px;
+}
+a:visited{
+    color:red;
+}
+a:hover{
+    color:blue;
+    background-color:#62ED39;
+}
+
+}
+a:active{
+    color:purple;
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+<header><h1></h1></header>
+<section>
+<nav>
+<ul style="list-style-type:none;">
+<li><a href="index.html">ลิมิตของฟังก์ชัน</a></li>
+<li><a href="page2.html">ความต่อเนื่องของฟังก์ชัน</a></li>
+<li><a href="page3.html">อนุพันธ์ของฟังก์ชัน</a></li>
+<li><a href="page4.html">การประยุกต์ของอนุพันธ์</a></li>
+<li><a href="page5.html">ปริพันธ์และพื้นที่ปิดล้อมด้วยเส้นโค้ง</a></li>
+
+</ul>
+</nav>
+<article>
+<h1>การประยุกต์ของอนุพันธ์</h1>
+<p>เป็นการนำความรู้เรื่องอนุพันธ์ไปใช้แก้ปัญหาในทางคณิตศาสตร์ วิทยาศาสตร์ และชีวิตจริง โดยเนื้อหาจะครอบคลุมการประยุกต์ในด้านต่างๆ เช่น การหาอัตราเร็วและความเร่งในการเคลื่อนที่ของวัตถุเชิงกลศาสตร์, การวิเคราะห์ลักษณะของกราฟ ได้แก่ การหาช่วงที่เป็นฟังก์ชันเพิ่มและฟังก์ชันลด, การหาจุดวกกลับ จุดสูงสุดสัมพัทธ์ และจุดต่ำสุดสัมพัทธ์ รวมถึงการแก้โจทย์ปัญหาการหาค่าสูงสุดหรือค่าต่ำสุดสุดขีด (Optimization Problems) เช่น การคำนวณหากำไรสูงสุด หรือการใช้วัสดุให้น้อยที่สุด สำหรับเนื้อหาบนหน้าเว็บไซต์จะมีโจทย์ประยุกต์หลากหลายรูปแบบ พร้อมคำอธิบายขั้นตอนการตั้งสมการและการหาคำตอบอย่างเป็นระบบ</p>
+</article>
+</section>
+<footer><p>จัดทำโดย นางสาวพัทธ์ธีรา สังวาลเพ็ชร ชั้น ม.6/1 เลขที่ 33<br>โรงเรียนรัตนราษฎร์บำรุง</p></footer>
+</div>
+</body>
+</html>
